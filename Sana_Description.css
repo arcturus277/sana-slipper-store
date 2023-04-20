@@ -1,0 +1,44 @@
+		body {
+			background-color: #ffdce5;
+			background-image: linear-gradient(#ffdce5, #ffdef7);
+			background-repeat: repeat;
+			font-family: "Montserrat", sans-serif;
+			font-size: 2.5em;
+			color: #333333;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 50px 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.text {
+			flex-basis: 60%;
+			text-align: left;
+			margin-right: 50px;
+		}
+		.text h1 {
+			font-size: 3em;
+			margin-bottom: 20px;
+		}
+		.text p {
+			line-height: 1.5;
+			margin-bottom: 30px;
+			text-align: justify;
+		}
+		.image {
+			flex-basis: 35%;
+			text-align: right;
+		}
+		.image img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			border-radius: 50%;
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+		}
